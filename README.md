@@ -1,4 +1,13 @@
-# README
+Working plan
+basic application:
+welcome/home page
+navigation: about, piano lessons, early music education
+
+additional functionality:
+stripe api for processing lesson payments
+admin login for updating site content
+student/parent login for viewing lesson information, amount due, specific student resources, etc.
+deployment
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
