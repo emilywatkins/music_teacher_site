@@ -17,10 +17,7 @@
 
 .navbar.navbar-default {
   background: none;
-}
-
-body {
-  background-image: url(asset_path('piano_hands'));
+  border: 1px solid blue;
 }
 
 a {
@@ -28,7 +25,13 @@ a {
   margin: 8px;
 }
 
-
 #welcome {
-  height: 400px;
+  border: 1px solid black;
+  // background-image: url(asset_path('piano_hands'));
+  height: 200px;
+  // margin-top: -70px;
+}
+
+#inner-welcome {
+  border: 1px solid red;
 }
