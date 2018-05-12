@@ -15,6 +15,9 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
 
+.navbar.navbar-default {
+  background: none;
+}
 
 a {
   text-transform: uppercase;
