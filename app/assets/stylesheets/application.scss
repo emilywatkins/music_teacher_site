@@ -19,12 +19,16 @@
   background: none;
 }
 
+body {
+  background-image: url(asset_path('piano_hands'));
+}
+
 a {
   text-transform: uppercase;
   margin: 8px;
 }
 
+
 #welcome {
-  border: 1px solid black;
-  background-image: url(asset_path('piano_hands'));
+  height: 400px;
 }
