@@ -12,13 +12,17 @@
  *
  */
 
- @import "bootstrap-sprockets";
- @import "bootstrap";
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "home.scss";
+@import "contact.scss";
 
+
+ * {
+   border-radius: 0 !important;
+ }
 
 .navbar.navbar-default {
-  // background: #A8E6CE;
-  // border-bottom: 1px solid #E6E6E6;
   padding: 10px;
   margin: 0px 80px 0px 80px;
   background: none;
@@ -29,21 +33,4 @@ a {
   text-transform: uppercase;
   margin: 8px;
   color: #F26B38;
-}
-
-#welcome {
-  // background-image: url(asset_path('piano_hands'));
-  padding: 70px 200px 70px 200px;
-  background-size: cover;
-  background-color: #F7DB4F;
-  text-align: center;
-}
-
-#welcome h2, h4 {
-  color: #2F9599;
-}
-
-#blocks {
-  text-align: center;
-  margin: 0px 80px 0px 80px;
 }
