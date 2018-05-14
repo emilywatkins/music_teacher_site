@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   resources :about, only: [:index]
   resources :lessons, only: [:index]
   resources :music_ed, only: [:index]
+  resources :contact, only: [:index]
 end
