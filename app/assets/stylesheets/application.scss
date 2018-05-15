@@ -20,6 +20,17 @@
 @import "lessons.scss";
 @import "music_ed.scss";
 
+// teal #38d2a0
+// pink #e6967e
+// darker pink #a82a68
+// blue #01c5f8
+// light yellow #fff8a2
+// darker yellow #ffcc2e
+// orange #ff9f46
+//
+// red #f72e2a
+// accompanying lighter color to red #f9eee9
+
  * {
    border-radius: 0 !important;
  }
@@ -29,16 +40,14 @@
   margin: 0px;
   padding-right: 90px;
   background: none;
-  border-bottom: 1px solid #F26B38;
-}
+  border-bottom: 1px solid #f9eee9;
 
-a {
-  text-transform: uppercase;
-  margin: 8px;
-  color: #F26B38;
-}
-
-hr {
-  border-color: #F26B38;
-  border-style: dotted;
+  a, p {
+    text-transform: uppercase;
+    margin: 8px;
+    color: #f72e2a;
+  }
+  .navbar-right {
+    padding-top: 10px;
+  }
 }
