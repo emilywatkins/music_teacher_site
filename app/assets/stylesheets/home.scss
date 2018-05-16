@@ -37,25 +37,40 @@
 #home-block-2 {
   background-color: #f1f1f1;
   height: 400px;
+  padding: 100px;
 }
 
-#hb3-right {
-  border: 1px solid #b5a2be; //purple
-  height: 400px;
-  margin-top: 20px;
-}
+// #hb3-right {
+//   background-color: #b5a2be; //purple
+//   height: 400px;
+//   margin-top: 20px;
+//   background-size: cover;
+//   text-align: center;
+// }
+//
+// #hb3-left {
+//   background-color: #f5996d;
+//   text-align: center;
+//   padding: 50px;
+// }
 
-#hb4-left {
-  border: 1px solid #f5996d; //orange
-  height: 400px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
+// #hb4-left {
+//   border: 1px solid #f5996d; //orange
+//   height: 400px;
+//   margin-top: 20px;
+//   margin-bottom: 20px;
+// }
+//
+// #hb4-right {
+//   text-align: center;
+//   padding: 50px;
+//   padding-top: 100px;
+// }
 
 #welcome_footer {
   border-top: 1px solid #a2d5da;
-  padding-bottom: 20px;
-  height: 60px;
+  padding: 20px;
+  margin-top: 20px;
   p {
     color: #292f33;
   }

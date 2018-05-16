@@ -5,6 +5,8 @@
 
 #lessons-footer {
   border-top: 1px solid #f5996d;
+  padding: 20px;
+  margin-top: 20px;
 }
 
 #lessons-block-2 {
@@ -18,10 +20,22 @@
 
 #lb1-left {
   background-color: #f5996d;
+  h3 {
+    color: white;
+  }
 }
 
 #lb2-right {
   border: 2px solid #f5996d;
+}
+#lb2-left {
+  padding-top: 200px;
+}
+
+#lesson-block-3 {
+  background-color: #f1f1f1;
+  height: 400px;
+  padding: 100px;
 }
 
 // #b34035 electric pulp red
