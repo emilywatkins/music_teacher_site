@@ -1,17 +1,3 @@
-#home_page {
-  .row {
-    margin-top: 20px;
-    padding-bottom: 60px;
-  }
-  #container {
-    min-height:100%;
-    position:relative;
-  }
-  margin:0;
-  padding:0;
-  height:100%;
-}
-
 #welcome {
   // background-image: url(asset_path('piano_hands'));
   padding: 30px 100px 30px 100px;
@@ -33,29 +19,53 @@
     }
   }
   #left-block {
-    background-color: #f9eee9;
+    background-color: #292f33;
     h2 {
-      color: #f72e2a;
+      color: white;
     }
   }
   #right-block {
-    background-color: #f72e2a;
+    background-color: #a2d5da;
     h2 {
-      color: #f9eee9;
+      color: white;
     }
   }
   text-align: center;
   padding: 20px 130px 20px 130px;
 }
 
+#home-block-2 {
+  background-color: #f1f1f1;
+  height: 400px;
+}
+
+#hb3-right {
+  border: 1px solid #b5a2be; //purple
+  height: 400px;
+  margin-top: 20px;
+}
+
+#hb4-left {
+  border: 1px solid #f5996d; //orange
+  height: 400px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 #welcome_footer {
-  border: 1px solid #f9eee9;
+  border-top: 1px solid #a2d5da;
   padding-bottom: 20px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
   height: 60px;
   p {
-    color: #f72e2a;
+    color: #292f33;
   }
 }
+
+// #b34035 electric pulp red
+// #292f33 dark blue text
+// #a2d5da light blue blocks
+// #2a3033 dark grey
+// #f5996d orange
+// #65b8cd blue
+// #b5a2be purple
+// #d98dac pink

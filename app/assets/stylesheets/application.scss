@@ -37,18 +37,23 @@
 // #b34035 electric pulp red
 // #292f33 dark blue text
 // #a2d5da light blue blocks
+// #2a3033 dark grey
+// #f5996d orange
+// #65b8cd blue
+// #b5a2be purple
+// #d98dac pink
 
 .navbar.navbar-default {
   padding: 10px;
   margin: 0px;
   padding-right: 90px;
   background: none;
-  border-bottom: 1px solid #f9eee9;
+  border-bottom: 1px solid #a2d5da;
 
   a, p {
     text-transform: uppercase;
     margin: 8px;
-    color: #f72e2a;
+    color: #292f33;
   }
   .navbar-right {
     padding-top: 10px;
