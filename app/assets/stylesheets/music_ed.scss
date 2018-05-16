@@ -15,14 +15,22 @@
 
 #meb1-left {
   background-color: #2a3033;
+  h3 {
+    color: white;
+  }
 }
 #meb1-right {
   border: 1px solid #2a3033;
+  text-align: right;
+  h3 {
+    color: #2a3033;
+  }
 }
 
 #music-ed-block-2 {
   height: 400px;
-  border: 1px solid #b5a2be;
+  background-color: #b5a2be;
+  margin-top: 20px;
 }
 
 // #b34035 electric pulp red

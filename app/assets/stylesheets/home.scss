@@ -1,11 +1,17 @@
-#welcome {
-  // background-image: url(asset_path('piano_hands'));
-  padding: 30px 100px 30px 100px;
-  text-align: center;
-  margin-top: 20px;
+#welcome-img {
+  background-image: url(asset_path('piano_hands'));
+  opacity: 0.35;
+  background-size: cover;
+  height: 600px;
+}
 
+#welcome-text {
+  height: 600px;
+  margin-top: -600px;
+  padding: 100px 100px 30px 100px;
+  text-align: center;
   h2, h1 {
-    color: #292f33;
+    color: black;
     font-family: KosticSerif-Regular;
   }
 }
