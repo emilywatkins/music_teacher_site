@@ -9,12 +9,16 @@
 
     <div class="container" id="blocks">
       <div class="row">
-        <div class="col-md-6" id="left-block">
-          <h2>piano lessons</h2>
-        </div>
-        <div class="col-md-6" id="right-block">
-          <h2>early music education</h2>
-        </div>
+        <%= link_to lessons_path do %>
+          <div class="col-md-6" id="left-block">
+            <h2>piano lessons</h2>
+          </div>
+        <% end %>
+        <%= link_to music_ed_index_path do %>
+          <div class="col-md-6" id="right-block">
+            <h2>early music education</h2>
+          </div>
+        <% end %>
       </div>
     </div>
 

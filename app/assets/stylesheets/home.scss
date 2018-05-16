@@ -25,25 +25,27 @@
 }
 
 #blocks {
-  #left-block {
-    background-color: #f9eee9;
+  #left-block, #right-block {
     padding-top: 50px;
     height: 200px;
+    h2 {
+      text-transform: uppercase;
+    }
+  }
+  #left-block {
+    background-color: #f9eee9;
     h2 {
       color: #f72e2a;
     }
   }
   #right-block {
     background-color: #f72e2a;
-    padding-top: 50px;
-    height: 200px;
     h2 {
       color: #f9eee9;
     }
   }
   text-align: center;
   padding: 20px 130px 20px 130px;
-  // background-color: #e9f9fc;
 }
 
 #welcome_footer {
