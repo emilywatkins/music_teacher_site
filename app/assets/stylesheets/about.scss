@@ -1,10 +1,9 @@
 #about-body {
   height: 400px;
-  margin-bottom: 60px;
 }
 
 #about-header {
-  height: 400px;
+  height: 300px;
   padding: 100px;
   h1 {
   }
@@ -19,18 +18,32 @@
 // #d98dac pink
 
 #about-left {
+  height: 300px;
+}
+
+#about-center {
   background-image: url(asset_path('horowitz'));
   background-size: cover;
-  height: 400px;
+  height: 300px;
 }
 
 #about-right {
-  border: 1px solid #b34035;
+  height: 300px;
+}
+
+#about-text {
   height: 400px;
-  h4 {
+  background-color: #a2d5da;
+  padding: 50px;
+  h3 {
     color: #292f33;
-    margin: 20px;
   }
+}
+
+#box-inside-1, #box-inside-2 {
+  border: 1px solid #b34035;
+  margin-top: 25px;
+  height: 250px;
 }
 
 #about-footer {
