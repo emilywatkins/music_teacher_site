@@ -1,38 +1,59 @@
+#home_page {
+  .row {
+    margin-top: 20px;
+    padding-bottom: 60px;
+  }
+  #container {
+    min-height:100%;
+    position:relative;
+  }
+  margin:0;
+  padding:0;
+  height:100%;
+}
+
 #welcome {
   // background-image: url(asset_path('piano_hands'));
-  padding: 30px 200px 30px 200px;
+  padding: 30px 100px 30px 100px;
   text-align: center;
   margin-top: 20px;
-  background-color: #f72e2a;
 
   h2, h1 {
-    color: #f9eee9;
+    color: #292f33;
+    font-family: KosticSerif-Regular;
   }
 }
 
 #blocks {
-  text-align: center;
-  padding: 20px 180px 20px 180px;
-  // background-color: #e9f9fc;
-
-  .thumbnail {
-    background: none;
-    border-color: #f72e2a;
-    height: 200px;
+  #left-block {
+    background-color: #f9eee9;
     padding-top: 50px;
+    height: 200px;
     h2 {
       color: #f72e2a;
     }
   }
-  .thumbnail:hover {
-    text-decoration: none;
+  #right-block {
+    background-color: #f72e2a;
+    padding-top: 50px;
+    height: 200px;
+    h2 {
+      color: #f9eee9;
+    }
   }
+  text-align: center;
+  padding: 20px 130px 20px 130px;
+  // background-color: #e9f9fc;
 }
 
 #welcome_footer {
-  background-color: #f72e2a;
+  border: 1px solid #f9eee9;
   padding-bottom: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
   p {
-    color: #f9eee9;
+    color: #f72e2a;
   }
 }
