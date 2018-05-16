@@ -1,10 +1,33 @@
-#contact {
-  padding: 70px 200px 70px 200px;
-  background-size: cover;
-  text-align: center;
-  background-color: #e7f7f1;
-
-  h2, h3, h4{
-    color: #406ddb;
+#contact-header {
+  height: 400px;
+  padding: 100px;
+  h1 {
+    color: #2a3033;
   }
 }
+
+#cb1-right {
+  height: 300px;
+  background-color: #a2d5da;
+  h3 {
+    color: #2a3033;
+  }
+}
+
+#contact-footer {
+  border-top: 1px solid #a2d5da;
+  height: 60px;
+  margin-top: 20px;
+  p {
+    color: #2a3033;
+  }
+}
+
+// #b34035 electric pulp red
+// #292f33 dark blue text
+// #a2d5da light blue blocks
+// #2a3033 dark grey
+// #f5996d orange
+// #65b8cd blue
+// #b5a2be purple
+// #d98dac pink
