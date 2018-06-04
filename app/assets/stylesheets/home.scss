@@ -8,11 +8,14 @@
 #welcome-text {
   height: 600px;
   margin-top: -600px;
-  padding: 100px 100px 30px 100px;
+  padding: 100px 50px 30px 50px;
   text-align: center;
-  h2, h1 {
-    color: black;
-    font-family: KosticSerif-Regular;
+  p {
+    text-transform: uppercase;
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 20px;
   }
 }
 
@@ -44,6 +47,7 @@
   background-color: #f1f1f1;
   height: 400px;
   padding: 100px;
+  text-align: center;
 }
 
 // #hb3-right {

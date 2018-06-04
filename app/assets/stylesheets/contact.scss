@@ -1,23 +1,20 @@
 #contact-header {
-  height: 300px;
-  padding: 100px;
+  height: 200px;
+  padding: 50px;
   h1 {
     color: #2a3033;
   }
 }
 
-#cb1-right, #cb1-left {
-  height: 300px;
-  background-color: #a2d5da;
-  h3 {
-    color: #2a3033;
-  }
+#contact-body {
+  text-align: center;
+  height: 200px;
 }
 
 #contact-footer {
   border-top: 1px solid #a2d5da;
-  padding-top: 20px;
-  margin-top: 20px;
+  padding: 20px;
+  margin-top: 70px;
   p {
     color: #2a3033;
   }
